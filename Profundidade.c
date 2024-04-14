@@ -4,7 +4,7 @@
 #define VERTICES 6 // Número de vértices no grafo
 
 bool visitado[VERTICES] = {false}; // Array para rastrear os vértices visitados durante a busca em profundidade (DFS)
-
+ 
 // Função de busca em profundidade (DFS) recursiva
 bool dfs(int grafo[VERTICES][VERTICES], int vertice)
 {

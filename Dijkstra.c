@@ -60,12 +60,12 @@ void Dijkstra(int grafo[VERTICES][VERTICES], int origem)
 int main()
 {
     int grafo[VERTICES][VERTICES] = {
-        {0, 0, 2, 4, 1, 0},
-        {0, 0, 3, 7, 5, 0},
+        {0, 3, 1, 0, 2, 0},
+        {0, 1, 3, 3, 2, 0},
         {2, 3, 0, 0, 6, 0},
-        {4, 7, 0, 0, 8, 0},
+        {5, 7, 0, 4, 2, 0},
         {1, 5, 6, 8, 0, 0},
-        {0, 0, 0, 0, 0, 0}};
+        {0, 1, 3, 0, 0, 1}};
 
     int origem = 0;
     printf("Vertice de Origem (1-%d) ", VERTICES);
